@@ -1,4 +1,5 @@
 using BancoSimples.Models;
+using Xunit;
 
 namespace BancoSimples.Tests;
 
