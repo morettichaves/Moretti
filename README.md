@@ -60,6 +60,14 @@ dotnet test tests/BancoSimples.Tests/BancoSimples.Tests.csproj
 
 Toda correção, melhoria ou funcionalidade deve começar por uma Issue e ser entregue por Pull Request, mencionando a Issue correspondente. As regras completas estão em [AGENTS.md](AGENTS.md).
 
+Fluxo recomendado:
+
+```text
+Issue → Branch → Alteração → Commit → Pull Request → Revisão → Merge
+```
+
+Esse processo ajuda a manter o histórico organizado, facilita revisões e evita alterações diretas na branch `main`.
+
 ## Autor
 
 **Otávio Moretti** — Desenvolvedor Back-End Júnior
